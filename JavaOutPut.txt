@@ -1,0 +1,487 @@
+New Comp received 0
+Current Belt : 0 0 0 
+Worker 0 : 0 0 0     Worker 1 : 0 0 0     
+-------------------
+New Comp received 2
+Current Belt : 2 0 0 
+Worker 0 : 0 0 0     Worker 1 : 2 0 0     
+-------------------
+New Comp received 1
+Current Belt : 1 0 0 
+Worker 0 : 1 0 0     Worker 1 : 2 0 0     
+-------------------
+New Comp received 1
+Current Belt : 1 0 0 
+Worker 0 : 1 0 0     Worker 1 : 3 0 0     
+Worker doing Assembling [Busy] are 1_0
+-------------------
+New Comp received 0
+Current Belt : 0 0 0 
+Worker 0 : 1 0 0     Worker 1 : 3 0 0     
+-------------------
+New Comp received 2
+Current Belt : 2 0 0 
+Worker 0 : 3 0 0     Worker 1 : 3 0 0     
+Worker doing Assembling [Busy] are 0_0
+-------------------
+New Comp received 0
+Current Belt : 0 0 0 
+Worker 0 : 3 0 0     Worker 1 : 3 0 0     
+-------------------
+New Comp received 2
+Current Belt : 2 0 0 
+Worker 0 : 3 0 0     Worker 1 : 3 0 0     
+Current Belt : 5 0 0 
+Putt back final products on idx :1_0
+-------------------
+New Comp received 2
+Current Belt : 2 5 0 
+Worker 0 : 3 0 0     Worker 1 : 2 0 0     
+-------------------
+New Comp received 1
+Current Belt : 1 0 5 
+Worker 0 : 3 0 0     Worker 1 : 3 0 0     
+Current Belt : 3 0 5 
+Putt back final products on idx :0_0
+Worker doing Assembling [Busy] are 1_0
+-------------------
+New Comp received 2
+Current Belt : 2 3 0 
+Worker 0 : 2 0 0     Worker 1 : 3 0 0     
+-------------------
+New Comp received 0
+Current Belt : 0 0 3 
+Worker 0 : 2 0 0     Worker 1 : 3 0 0     
+-------------------
+New Comp received 2
+Current Belt : 2 0 0 
+Worker 0 : 2 0 0     Worker 1 : 3 0 0     
+-------------------
+New Comp received 1
+Current Belt : 1 2 0 
+Worker 0 : 3 0 0     Worker 1 : 3 2 0     
+Worker doing Assembling [Busy] are 0_0
+Current Belt : 3 0 0 
+Putt back final products on idx :1_0
+-------------------
+New Comp received 0
+Current Belt : 0 3 0 
+Worker 0 : 3 0 0     Worker 1 : 0 2 0     
+-------------------
+New Comp received 0
+Current Belt : 0 0 3 
+Worker 0 : 3 0 0     Worker 1 : 0 2 0     
+-------------------
+New Comp received 0
+Current Belt : 0 0 0 
+Worker 0 : 3 0 0     Worker 1 : 0 2 0     
+-------------------
+New Comp received 1
+Current Belt : 1 0 0 
+Worker 0 : 3 0 0     Worker 1 : 1 2 0     
+Current Belt : 3 0 0 
+Putt back final products on idx :0_0
+-------------------
+New Comp received 0
+Current Belt : 0 3 0 
+Worker 0 : 0 0 0     Worker 1 : 1 2 0     
+-------------------
+New Comp received 1
+Current Belt : 1 0 3 
+Worker 0 : 1 0 0     Worker 1 : 1 2 0     
+-------------------
+New Comp received 2
+Current Belt : 2 0 0 
+Worker 0 : 1 0 0     Worker 1 : 3 2 0     
+Worker doing Assembling [Busy] are 1_0
+-------------------
+New Comp received 1
+Current Belt : 1 0 0 
+Worker 0 : 1 0 0     Worker 1 : 3 2 0     
+-------------------
+New Comp received 2
+Current Belt : 2 1 0 
+Worker 0 : 3 0 0     Worker 1 : 3 3 0     
+Worker doing Assembling [Busy] are 0_0
+Worker doing Assembling [Busy] are 1_1
+-------------------
+New Comp received 1
+Current Belt : 1 0 0 
+Worker 0 : 3 0 0     Worker 1 : 3 3 0     
+-------------------
+New Comp received 2
+Current Belt : 2 1 0 
+Worker 0 : 3 1 0     Worker 1 : 3 3 0     
+Current Belt : 5 0 0 
+Putt back final products on idx :1_0
+-------------------
+New Comp received 0
+Current Belt : 0 5 0 
+Worker 0 : 3 1 0     Worker 1 : 0 3 0     
+-------------------
+New Comp received 1
+Current Belt : 1 0 5 
+Worker 0 : 3 1 0     Worker 1 : 1 3 0     
+Current Belt : 3 0 5 
+Putt back final products on idx :0_0
+Current Belt : 3 3 5 
+Putt back final products on idx :1_1
+-------------------
+New Comp received 0
+Current Belt : 0 3 3 
+Worker 0 : 0 1 0     Worker 1 : 1 0 0     
+-------------------
+New Comp received 2
+Current Belt : 2 0 3 
+Worker 0 : 0 1 0     Worker 1 : 3 0 0     
+Worker doing Assembling [Busy] are 1_0
+-------------------
+New Comp received 2
+Current Belt : 2 0 0 
+Worker 0 : 2 1 0     Worker 1 : 3 0 0     
+-------------------
+New Comp received 1
+Current Belt : 1 0 0 
+Worker 0 : 3 1 0     Worker 1 : 3 0 0     
+Worker doing Assembling [Busy] are 0_0
+-------------------
+New Comp received 1
+Current Belt : 1 0 0 
+Worker 0 : 3 1 0     Worker 1 : 3 0 0     
+-------------------
+New Comp received 1
+Current Belt : 1 1 0 
+Worker 0 : 3 1 0     Worker 1 : 3 1 0     
+Current Belt : 4 0 0 
+Putt back final products on idx :1_0
+-------------------
+New Comp received 1
+Current Belt : 1 4 0 
+Worker 0 : 3 1 0     Worker 1 : 1 1 0     
+-------------------
+New Comp received 2
+Current Belt : 2 0 4 
+Worker 0 : 3 1 0     Worker 1 : 3 1 0     
+Current Belt : 3 0 4 
+Putt back final products on idx :0_0
+Worker doing Assembling [Busy] are 1_0
+-------------------
+New Comp received 1
+Current Belt : 1 3 0 
+Worker 0 : 1 1 0     Worker 1 : 3 1 0     
+-------------------
+New Comp received 2
+Current Belt : 2 0 3 
+Worker 0 : 3 1 0     Worker 1 : 3 1 0     
+Worker doing Assembling [Busy] are 0_0
+-------------------
+New Comp received 2
+Current Belt : 2 0 0 
+Worker 0 : 3 1 0     Worker 1 : 3 1 0     
+-------------------
+New Comp received 0
+Current Belt : 0 2 0 
+Worker 0 : 3 3 0     Worker 1 : 3 1 0     
+Worker doing Assembling [Busy] are 0_1
+Current Belt : 3 0 0 
+Putt back final products on idx :1_0
+-------------------
+New Comp received 1
+Current Belt : 1 3 0 
+Worker 0 : 3 3 0     Worker 1 : 1 1 0     
+-------------------
+New Comp received 0
+Current Belt : 0 0 3 
+Worker 0 : 3 3 0     Worker 1 : 1 1 0     
+Current Belt : 3 0 3 
+Putt back final products on idx :0_0
+-------------------
+New Comp received 1
+Current Belt : 1 3 0 
+Worker 0 : 1 3 0     Worker 1 : 1 1 0     
+-------------------
+New Comp received 1
+Current Belt : 1 0 3 
+Worker 0 : 1 3 0     Worker 1 : 1 1 0     
+Current Belt : 1 3 3 
+Putt back final products on idx :0_1
+-------------------
+New Comp received 2
+Current Belt : 2 1 3 
+Worker 0 : 3 1 0     Worker 1 : 1 1 0     
+Worker doing Assembling [Busy] are 0_0
+-------------------
+New Comp received 0
+Current Belt : 0 0 0 
+Worker 0 : 3 1 0     Worker 1 : 1 1 0     
+-------------------
+New Comp received 2
+Current Belt : 2 0 0 
+Worker 0 : 3 1 0     Worker 1 : 3 1 0     
+Worker doing Assembling [Busy] are 1_0
+-------------------
+New Comp received 2
+Current Belt : 2 0 0 
+Worker 0 : 3 1 0     Worker 1 : 3 1 0     
+-------------------
+New Comp received 2
+Current Belt : 2 2 0 
+Worker 0 : 3 3 0     Worker 1 : 3 1 0     
+Current Belt : 5 0 0 
+Putt back final products on idx :0_0
+Worker doing Assembling [Busy] are 0_1
+-------------------
+New Comp received 2
+Current Belt : 2 5 0 
+Worker 0 : 2 3 0     Worker 1 : 3 1 0     
+-------------------
+New Comp received 1
+Current Belt : 1 0 5 
+Worker 0 : 3 3 0     Worker 1 : 3 1 0     
+Worker doing Assembling [Busy] are 0_0
+Current Belt : 3 0 5 
+Putt back final products on idx :1_0
+-------------------
+New Comp received 0
+Current Belt : 0 3 0 
+Worker 0 : 3 3 0     Worker 1 : 0 1 0     
+-------------------
+New Comp received 2
+Current Belt : 2 0 3 
+Worker 0 : 3 3 0     Worker 1 : 2 1 0     
+Current Belt : 0 3 3 
+Putt back final products on idx :0_1
+-------------------
+New Comp received 0
+Current Belt : 0 0 3 
+Worker 0 : 3 0 0     Worker 1 : 2 1 0     
+-------------------
+New Comp received 2
+Current Belt : 2 0 0 
+Worker 0 : 3 0 0     Worker 1 : 2 1 0     
+Current Belt : 5 0 0 
+Putt back final products on idx :0_0
+-------------------
+New Comp received 2
+Current Belt : 2 5 0 
+Worker 0 : 2 0 0     Worker 1 : 2 1 0     
+-------------------
+New Comp received 0
+Current Belt : 0 0 5 
+Worker 0 : 2 0 0     Worker 1 : 2 1 0     
+-------------------
+New Comp received 2
+Current Belt : 2 0 0 
+Worker 0 : 2 0 0     Worker 1 : 2 1 0     
+-------------------
+New Comp received 0
+Current Belt : 0 2 0 
+Worker 0 : 2 2 0     Worker 1 : 2 1 0     
+-------------------
+New Comp received 1
+Current Belt : 1 0 0 
+Worker 0 : 2 2 0     Worker 1 : 3 1 0     
+Worker doing Assembling [Busy] are 1_0
+-------------------
+New Comp received 1
+Current Belt : 1 0 0 
+Worker 0 : 3 2 0     Worker 1 : 3 1 0     
+Worker doing Assembling [Busy] are 0_0
+-------------------
+New Comp received 2
+Current Belt : 2 0 0 
+Worker 0 : 3 2 0     Worker 1 : 3 1 0     
+-------------------
+New Comp received 2
+Current Belt : 2 2 0 
+Worker 0 : 3 2 0     Worker 1 : 3 3 0     
+Worker doing Assembling [Busy] are 1_1
+-------------------
+New Comp received 2
+Current Belt : 2 2 0 
+Worker 0 : 3 2 0     Worker 1 : 3 3 0     
+Current Belt : 5 2 0 
+Putt back final products on idx :1_0
+-------------------
+New Comp received 0
+Current Belt : 0 5 2 
+Worker 0 : 3 2 0     Worker 1 : 0 3 2     
+Current Belt : 3 5 0 
+Putt back final products on idx :0_0
+-------------------
+New Comp received 0
+Current Belt : 0 3 5 
+Worker 0 : 0 2 0     Worker 1 : 0 3 2     
+-------------------
+New Comp received 2
+Current Belt : 2 0 3 
+Worker 0 : 0 2 0     Worker 1 : 2 3 2     
+Current Belt : 0 3 3 
+Putt back final products on idx :1_1
+-------------------
+New Comp received 0
+Current Belt : 0 0 3 
+Worker 0 : 0 2 0     Worker 1 : 2 0 2     
+-------------------
+New Comp received 1
+Current Belt : 1 0 0 
+Worker 0 : 0 2 0     Worker 1 : 3 0 2     
+Worker doing Assembling [Busy] are 1_0
+-------------------
+New Comp received 0
+Current Belt : 0 0 0 
+Worker 0 : 0 2 0     Worker 1 : 3 0 2     
+-------------------
+New Comp received 0
+Current Belt : 0 0 0 
+Worker 0 : 0 2 0     Worker 1 : 3 0 2     
+-------------------
+New Comp received 1
+Current Belt : 1 0 0 
+Worker 0 : 1 2 0     Worker 1 : 3 0 2     
+-------------------
+New Comp received 0
+Current Belt : 0 0 0 
+Worker 0 : 1 2 0     Worker 1 : 3 0 2     
+Current Belt : 3 0 0 
+Putt back final products on idx :1_0
+-------------------
+New Comp received 2
+Current Belt : 2 3 0 
+Worker 0 : 3 2 0     Worker 1 : 0 0 2     
+Worker doing Assembling [Busy] are 0_0
+-------------------
+New Comp received 0
+Current Belt : 0 0 3 
+Worker 0 : 3 2 0     Worker 1 : 0 0 2     
+-------------------
+New Comp received 2
+Current Belt : 2 0 0 
+Worker 0 : 3 2 0     Worker 1 : 2 0 2     
+-------------------
+New Comp received 2
+Current Belt : 2 0 0 
+Worker 0 : 3 2 0     Worker 1 : 2 0 2     
+-------------------
+New Comp received 2
+Current Belt : 2 2 0 
+Worker 0 : 3 2 0     Worker 1 : 2 2 2     
+Current Belt : 5 0 0 
+Putt back final products on idx :0_0
+-------------------
+New Comp received 0
+Current Belt : 0 5 0 
+Worker 0 : 0 2 0     Worker 1 : 2 2 2     
+-------------------
+New Comp received 1
+Current Belt : 1 0 5 
+Worker 0 : 0 2 0     Worker 1 : 3 2 2     
+Worker doing Assembling [Busy] are 1_0
+-------------------
+New Comp received 2
+Current Belt : 2 0 0 
+Worker 0 : 2 2 0     Worker 1 : 3 2 2     
+-------------------
+New Comp received 1
+Current Belt : 1 0 0 
+Worker 0 : 3 2 0     Worker 1 : 3 2 2     
+Worker doing Assembling [Busy] are 0_0
+-------------------
+New Comp received 1
+Current Belt : 1 0 0 
+Worker 0 : 3 2 0     Worker 1 : 3 2 2     
+-------------------
+New Comp received 2
+Current Belt : 2 1 0 
+Worker 0 : 3 3 0     Worker 1 : 3 2 2     
+Worker doing Assembling [Busy] are 0_1
+Current Belt : 5 0 0 
+Putt back final products on idx :1_0
+-------------------
+New Comp received 0
+Current Belt : 0 5 0 
+Worker 0 : 3 3 0     Worker 1 : 0 2 2     
+-------------------
+New Comp received 0
+Current Belt : 0 0 5 
+Worker 0 : 3 3 0     Worker 1 : 0 2 2     
+Current Belt : 3 0 5 
+Putt back final products on idx :0_0
+-------------------
+New Comp received 1
+Current Belt : 1 3 0 
+Worker 0 : 1 3 0     Worker 1 : 0 2 2     
+-------------------
+New Comp received 2
+Current Belt : 2 0 3 
+Worker 0 : 1 3 0     Worker 1 : 2 2 2     
+Current Belt : 0 3 3 
+Putt back final products on idx :0_1
+-------------------
+New Comp received 1
+Current Belt : 1 0 3 
+Worker 0 : 1 0 0     Worker 1 : 3 2 2     
+Worker doing Assembling [Busy] are 1_0
+-------------------
+New Comp received 1
+Current Belt : 1 0 0 
+Worker 0 : 1 0 0     Worker 1 : 3 2 2     
+-------------------
+New Comp received 2
+Current Belt : 2 1 0 
+Worker 0 : 3 1 0     Worker 1 : 3 2 2     
+Worker doing Assembling [Busy] are 0_0
+-------------------
+New Comp received 2
+Current Belt : 2 0 0 
+Worker 0 : 3 1 0     Worker 1 : 3 2 2     
+-------------------
+New Comp received 0
+Current Belt : 0 2 0 
+Worker 0 : 3 3 0     Worker 1 : 3 2 2     
+Worker doing Assembling [Busy] are 0_1
+Current Belt : 3 0 0 
+Putt back final products on idx :1_0
+-------------------
+New Comp received 1
+Current Belt : 1 3 0 
+Worker 0 : 3 3 0     Worker 1 : 1 2 2     
+-------------------
+New Comp received 0
+Current Belt : 0 0 3 
+Worker 0 : 3 3 0     Worker 1 : 1 2 2     
+Current Belt : 3 0 3 
+Putt back final products on idx :0_0
+-------------------
+New Comp received 2
+Current Belt : 2 3 0 
+Worker 0 : 0 3 0     Worker 1 : 3 2 2     
+Worker doing Assembling [Busy] are 1_0
+-------------------
+New Comp received 1
+Current Belt : 1 0 3 
+Worker 0 : 1 3 0     Worker 1 : 3 2 2     
+Current Belt : 0 3 3 
+Putt back final products on idx :0_1
+-------------------
+New Comp received 0
+Current Belt : 0 0 3 
+Worker 0 : 1 0 0     Worker 1 : 3 2 2     
+-------------------
+New Comp received 1
+Current Belt : 1 0 0 
+Worker 0 : 1 0 0     Worker 1 : 3 2 2     
+-------------------
+New Comp received 0
+Current Belt : 0 1 0 
+Worker 0 : 1 1 0     Worker 1 : 3 2 2     
+Current Belt : 3 0 0 
+Putt back final products on idx :1_0
+-------------------
+New Comp received 0
+Current Belt : 0 3 0 
+Worker 0 : 1 1 0     Worker 1 : 0 2 2     
+-------------------
+ Total Assembled components is 27
+ Un Collected components 1 is 0
+ Un Collected components 2 is 0
