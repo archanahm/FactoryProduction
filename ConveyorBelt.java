@@ -3,6 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
+import java.util.Set;
 
 
 public class ConveyorBelt {
@@ -10,7 +11,7 @@ public class ConveyorBelt {
 	static final int RIGHT_WORKER=0;
 	static final int LEFT_WORKER=1;
 	
-	static final int MAX_COMP=3;
+	static int MAX_COMP=3;
 	static final int ASSEMBLE_TIME=4;
 	
 	static final int COMP_EMPTY=0;
@@ -24,6 +25,8 @@ public class ConveyorBelt {
 	static int fullComp=0;
 	static int unCollected[]={0,0};
 	
+	int lastItemOnBelt;
+	
 	static List<Integer> assemblingWorkers = new ArrayList();
 	
 	static Map<String, Integer> map = new HashMap();
@@ -33,9 +36,10 @@ public class ConveyorBelt {
 	 * @param args
 	 */
 	public static void main(String[] args) {
+		System.out.println("inside main");
 		
-		for(int i=0;i<100;i++) {
-			int r=getRandomNumber(MAX_COMP);
+		for(int i=0;i<5;i++) {
+			int  r=getRandomNumber(MAX_COMP);
 			switch(r){
 			case COMP_EMPTY:
 				//pickCompFromBelt();
@@ -67,12 +71,12 @@ public class ConveyorBelt {
 		}
 	}
 	
-	private static void updateAssemblers() {
-		
+	public static String updateAssemblers() {
+		String key = null;
 		for(int i=0;i<workers.length;i++){
 			for(int j=0;j<workers[0].length;j++){
 				if(workers[i][j] == COMP_FINAL){
-					String key=i+"_"+j;
+					 key=i+"_"+j;
 					if(map.containsKey(key)) {
 						Integer val=map.get(key);
 						val--;
@@ -83,14 +87,18 @@ public class ConveyorBelt {
 							System.out.println("Putt back final products on idx :"+key);
 							map.remove(key);
 							workers[i][j]=0;
+							
 						}
 					} else {
 						System.out.println("Worker doing Assembling [Busy] are "+key);
 						map.put(key, ASSEMBLE_TIME);
+						
 					}
 				}
 			}
 		}
+		System.out.println("Assemblers are updated");
+		return key;
 		
 	}
 
@@ -99,23 +107,28 @@ public class ConveyorBelt {
 		displayBelt();
 	}
 
-	private static void putCompOnBelt(int comp) {
+	public static void putCompOnBelt(int comp) {
 		System.out.println("New Comp received "+comp);
 		int beltLength=conveyorBelt.length;
 		int lastItemOnBelt=conveyorBelt[beltLength-1];
-		if(lastItemOnBelt !=COMP_EMPTY && lastItemOnBelt < COMP_FINAL) {
-			unCollected[lastItemOnBelt-1]++; //this should go to uncollected array only if its not picked by worked A and B both should be busy 
-		} else if(lastItemOnBelt >= COMP_FINAL) {
-			fullComp++;
+		if(comp==0){
+			System.out.println("No components received");
 		}
-		for(int i=beltLength-1;i>0;i--){
-			conveyorBelt[i]=conveyorBelt[i-1];
+		else{
+			if(lastItemOnBelt !=COMP_EMPTY && lastItemOnBelt < COMP_FINAL) {
+				unCollected[lastItemOnBelt-1]++; //this should go to uncollected array only if its not picked by worked A and B both should be busy 
+			} else if(lastItemOnBelt >= COMP_FINAL) {
+				fullComp++;
+			}
+			for(int i=beltLength-1;i>0;i--){
+				conveyorBelt[i]=conveyorBelt[i-1];
+			}
 		}
 		conveyorBelt[0]=comp;
 		displayBelt();
 	}
 	
-	private static void pickCompFromBelt() {
+	public static void pickCompFromBelt() {
 		for(int i=0;i<workers[0].length;i++){
 			int beltContent=conveyorBelt[i];
 			if(beltContent !=COMP_EMPTY && beltContent < COMP_FINAL){
@@ -143,7 +156,7 @@ public class ConveyorBelt {
 		}
 		System.out.println();
 	}
-	private static void displayWorker(){
+	public static int[][] displayWorker(){
 		for(int i=0;i<workers.length;i++){
 			System.out.print("Worker "+i + " : ");
 			for(int j=0;j<workers[i].length;j++){
@@ -152,9 +165,10 @@ public class ConveyorBelt {
 			System.out.print("    ");
 		}
 		System.out.println();
+		return workers;
 	}
 
-	private static int getRandomNumber(int n) {
+	protected static int getRandomNumber(int n) {
 	return random.nextInt(n);
 		
 	}
